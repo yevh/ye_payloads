@@ -41,7 +41,7 @@ HTML5 payload
 <textarea autofocus onfocus=alert('xss inj')>
 ```
 
-What is available for manipulation:
+What is available for manipulation:  
 1.Cookie  
 2.DOM  
 3.Connectivity  
