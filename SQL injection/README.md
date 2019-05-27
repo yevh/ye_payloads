@@ -38,7 +38,7 @@ Multiple encoding:
 %%2323
 %%3B3B
 ```
-Detection of Boolean based blind SQL injection:
+Detection of Boolean based blind SQL injection:<br />
 TRUE statements:
 ```
 aNd 1=1
