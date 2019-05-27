@@ -1,6 +1,6 @@
 Path traversal
 ------------------------------------------------------------
-A directory traversal (or path traversal) consists in exploiting insufficient security validation / sanitization of user-supplied input file names, such that characters representing "traverse to parent directory" are passed through to the file APIs.
+A directory traversal (or path traversal) consists in exploiting insufficient security validation / sanitization of user-supplied input file names, such that characters representing "traverse to parent directory" are passed through to the file APIs. 
 
 Where to detect?
 ------------------------------------------------------------
