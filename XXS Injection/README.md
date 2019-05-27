@@ -11,6 +11,12 @@ Types of XSS injections:
 
 3)DOM base - It is possible if the web application’s client-side scripts write data provided by the user to the Document Object Model (DOM). The data is subsequently read from the DOM by the web application and outputted to the browser. If the data is incorrectly handled, an attacker can inject a payload, which will be stored as part of the DOM and executed when the data is read back from the DOM.
 
+What is available for manipulation:  
+1.Cookie  
+2.DOM  
+3.Connectivity  
+4.Async JS requests  
+
 Basic payload:
 ```
 ';alert('xss inj');' 
@@ -40,13 +46,6 @@ HTML5 payload
 <input autofocus onfocus=alert('xss inj')>
 <textarea autofocus onfocus=alert('xss inj')>
 ```
-
-What is available for manipulation:  
-1.Cookie  
-2.DOM  
-3.Connectivity  
-4.Async JS requests   
-
 
 References:
 -------------------------------------
