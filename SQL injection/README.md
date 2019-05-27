@@ -138,7 +138,8 @@ sqlmap -u “url” —-os-shell --- OS shell
 
 sqlmap -u “url” —-sql-shell --- SQL shell
 ```
+
+References:  
 -----------------------------------------------------------------------------
-References:
-[Wikipedia](https://en.wikipedia.org/wiki/SQL_injection)  
-[Owasp](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
+[Wikipedia](https://en.wikipedia.org/wiki/SQL_injection)   
+[Owasp](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))  
