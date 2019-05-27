@@ -42,10 +42,10 @@ HTML5 payload
 ```
 
 What is available for manipulation:
-1.Cookie 
-2.DOM
-3.Connectivity
-4.Async JS requests 
+1.Cookie  
+2.DOM  
+3.Connectivity  
+4.Async JS requests   
 
 
 References:
