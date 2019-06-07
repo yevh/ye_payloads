@@ -17,7 +17,7 @@ Available for manipulation:
 3.Connectivity  
 4.Async JS requests  
 
-Toolset: SQL Map, NoSQLMAP <br />
+Toolset: Acunteix, w3af, Beef <br />
 
 Basic payload:
 -----------------------------------------------------------------------------
