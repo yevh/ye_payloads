@@ -5,7 +5,6 @@ In this sheet presented cryptographic recommendation and libraries to use.
 
 
 Recommendation:
-------------------------------------------------------------
 ```
 Key exchange: Diffie–Hellman key exchange with minimum 2048 bits
 Message Integrity: HMAC-SHA2
