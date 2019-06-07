@@ -5,7 +5,7 @@ The File Inclusion vulnerability allows an attacker to include a file, usually e
 Can lead to:
 ------------------------------------------------------------
 -Code execution on the web server.       
--Code execution on the client-side such as JavaScript which can lead to other attacks such as cross site scripting (XSS).      
+-Code execution on the client-side such as JavaScript which can lead to other attacks such as cross site scripting.      
 -Denial of Service (DoS).      
 -Sensitive Information Disclosure.  
 
