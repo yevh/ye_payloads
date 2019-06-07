@@ -11,7 +11,7 @@ Types of SQL injection: <br />
 2) Boolean based blind <br />
 3) Time based blind <br />
 
-Toolset: Burp Suite, SQL Map. <br />
+Toolset: SQL Map, NoSQLMAP <br />
 
 Detection
 -----------------------------------------------------------------------------
